@@ -14,4 +14,10 @@
     <string name="hint2">Message:</string>
     <string name="button4">SendText</string>
 
+    <!-- GridLayout -->
+    <string name="textview2">To:</string>
+    <string name="button5">Button05</string>
+    <string name="hint3">Enter email</string>
+    <string name="hint4">Enter message</string>
+
 </resources>
