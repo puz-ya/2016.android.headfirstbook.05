@@ -6,10 +6,12 @@
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.yd.a2016androidheadfirstbook05.MainActivity"
     tools:showIn="@layout/activity_main">
@@ -18,4 +20,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/button1"
+        />
+
+    <!--
+    List of attributes (set to TRUE):
+        android:layout_alignParentBottom - нижний край макета
+        android:layout_alignParentTop - верхний край
+        android:layout_alignParentLeft - левый край (+ParentStart)
+        android:layout_alignParentRight - правый край (+ParentEnd)
+
+        android:layout_centerInParent - в центре макета
+        android:layout_centerHorizontal - по центру горизонтали
+        android:layout_centerVertical - по центру вертикали
+    -->
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignLeft="@id/button01"
+        android:layout_alignStart="@id/button01"
+        android:layout_below="@id/button01"
+        />
 </RelativeLayout>

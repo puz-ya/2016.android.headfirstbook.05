@@ -3,4 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Setup our own dimensions -->
+    <dimen name="user_margin_vertical">15dp</dimen>
+    <dimen name="user_margin_horizontal">10dp</dimen>
 </resources>
