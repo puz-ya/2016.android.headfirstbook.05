@@ -53,7 +53,7 @@
         android:layout_marginTop="50dp"
         />
 
-    <!-- List of align attributes
+    <!-- List of align attributes (только в RelativeLayout !)
     android:layout_above - над указанным представлением
     android:layout_below - под представлением
 

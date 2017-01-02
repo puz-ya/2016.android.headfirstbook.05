@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/content_main"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              tools:context="com.yd.a2016androidheadfirstbook05.MainActivity"
+              tools:showIn="@layout/activity_main"
+    >
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button03"
+        android:text="@string/button3"
+        />
+    -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:hint="@string/hint1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/ed2"
+        android:hint="@string/hint2"
+        android:gravity="top"
+        />
+
+    <!-- List of gravity parameters (размещение содержимого представления):
+    top, bottom, left, right - соответствующие края
+
+    center_vertical, center_horizontal - в центре по вертикали и горизонтали
+    center - по центру представления (и горизон и верткал)
+
+    fill_vertical, fill_horizontal, fill - заполнение по вертикали, горизонтали, общее
+    -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button4"
+        android:layout_gravity="end"
+        />
+
+    <!-- List of layout_gravity parameters (размещение самого представления) :
+    top, bottom, left, right - соответствующие края
+    start, end - начало или конец контейнера (кодировки справа налево)
+
+    center_vertical, center_horizontal - в центре по вертикали и горизонтали
+    center - по центру представления (и горизон и верткал)
+
+    fill_vertical, fill_horizontal, fill - заполнение по вертикали, горизонтали, общее
+
+    -->
+
+</LinearLayout>

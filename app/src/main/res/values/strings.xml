@@ -2,5 +2,16 @@
     <string name="app_name">Chapter 05</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Relative layout -->
     <string name="button1">ClickMe</string>
+    <string name="button2">Button2Below</string>
+
+    <!-- Linear Layout -->
+    <string name="textview1">Set Text</string>
+    <string name="button3">Set Text</string>
+
+    <string name="hint1">To:</string>
+    <string name="hint2">Message:</string>
+    <string name="button4">SendText</string>
+
 </resources>
