@@ -45,9 +45,29 @@
         android:id="@+id/button02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+
         android:layout_alignLeft="@id/button01"
         android:layout_alignStart="@id/button01"
         android:layout_below="@id/button01"
+
+        android:layout_marginTop="50dp"
         />
+
+    <!-- List of align attributes
+    android:layout_above - над указанным представлением
+    android:layout_below - под представлением
+
+    android:layout_alignTop, _alignBottom, _alignLeft, _alignRight (+Start, +End) - край по границе
+
+    android:layout_toLeftOf - правый край у левого края указанного View
+    android:layout_toRightOf - левый край у правого края указанного View
+    -->
+
+    <!-- List of margin attributes
+     android:layout_marginTop - сверху от элемента
+     android:layout_marginBottom - снизу
+     android:layout_marginLeft - слева
+     android:layout_marginRight - справа
+    -->
+
 </RelativeLayout>
