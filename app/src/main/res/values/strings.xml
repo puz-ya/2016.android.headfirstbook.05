@@ -20,4 +20,11 @@
     <string name="hint3">Enter email</string>
     <string name="hint4">Enter message</string>
 
+    <!-- Exercise -->
+    <string-array name="spinner_entry">
+        <item>Hot</item>
+        <item>Neutral</item>
+        <item>Cold</item>
+    </string-array>
+
 </resources>
